@@ -3,13 +3,18 @@
     <div>
       <i class="p-2 fab fa-medium text-xl" />
     </div>
-    <p class="font-medium">Title all the way</p>
+    <p>Title all the way</p>
     <p>Discription all over the world we have</p>
   </div>
 </template>
 
 <script>
-export default {};
+export default {
+  props: ["service"],
+  mounted() {
+    console.log(this.service);
+  },
+};
 </script>
 
 <style></style>

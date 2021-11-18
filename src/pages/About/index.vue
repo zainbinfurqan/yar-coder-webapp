@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="">
     <div class="rounded-full flex items-center justify-center">
       <img
         class="rounded-full items-center"
@@ -18,30 +18,12 @@
         <i class="p-2 fab fa-youtube-square text-xl" />
       </div>
     </div>
-    <div class="flex">
-      <div v-for="(service, index) of services" v-bind:key="index + 1">
-        <ServicesProvide />
-      </div>
-    </div>
   </div>
 </template>
 
 <script>
-import ServicesProvide from "./components/providing-services";
 export default {
-  data() {
-    return {
-      services: [
-        { id: "", title: "Mentorship" },
-        { id: "", title: "Colaberation" },
-        { id: "", title: "" },
-        { id: "", title: "" },
-      ],
-    };
-  },
-  component: {
-    ServicesProvide,
-  },
+  component: {},
 };
 </script>
 
