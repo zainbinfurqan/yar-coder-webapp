@@ -8,7 +8,8 @@
   <!-- <div class="border-t mx-2" /> -->
   <!-- <Support /> -->
   <!-- <div class="border-t mx-2" /> -->
-  <Contact />
+  <UnderConstruction />
+  <!-- <Contact /> -->
 </template>
 
 <script>
@@ -16,7 +17,8 @@
 // import Blogs from "./pages/Blogs";
 // import ProvidingServices from "./pages/ProvidingServices";
 // import Support from "./pages/Support";
-import Contact from "./pages/Contact";
+// import Contact from "./pages/Contact";
+import UnderConstruction from "./pages/UnderConstruction";
 
 export default {
   name: "App",
@@ -25,7 +27,8 @@ export default {
     // ProvidingServices,
     // Blogs,
     // Support,
-    Contact,
+    // Contact,
+    UnderConstruction,
   },
 };
 </script>
