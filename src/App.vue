@@ -4,31 +4,33 @@
   <!-- <div class="border-t mx-2" /> -->
   <!-- <ProvidingServices /> -->
   <!-- <div class="border-t mx-2" /> -->
-  <!-- <Blogs /> -->
+  <Socials />
+  <Blogs />
+  <Videos />
   <!-- <div class="border-t mx-2" /> -->
   <!-- <Support /> -->
   <!-- <div class="border-t mx-2" /> -->
-  <UnderConstruction />
+  <!-- <UnderConstruction /> -->
   <!-- <Contact /> -->
 </template>
 
 <script>
-// import About from "./pages/About";
-// import Blogs from "./pages/Blogs";
-// import ProvidingServices from "./pages/ProvidingServices";
+import Videos from "./pages/Videos";
+import Blogs from "./pages/Blogs";
+import Socials from "./pages/Socials";
 // import Support from "./pages/Support";
 // import Contact from "./pages/Contact";
-import UnderConstruction from "./pages/UnderConstruction";
+// import UnderConstruction from "./pages/UnderConstruction";
 
 export default {
   name: "App",
   components: {
-    // About,
-    // ProvidingServices,
-    // Blogs,
+    Videos,
+    Socials,
+    Blogs,
     // Support,
     // Contact,
-    UnderConstruction,
+    // UnderConstruction,
   },
 };
 </script>
